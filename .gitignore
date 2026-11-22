@@ -37,3 +37,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Arquivo de contexto e exemplificação de aplicação de estrutura de dados com Árvore B (B Tree) ###
+/ProjBTree
+*/ProjBTree
