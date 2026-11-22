@@ -25,11 +25,13 @@ public class Main {
         exibir(arvore);
         System.out.println();
 
+        System.out.println("Exclusão de elementos pares:");
         for (int i = 2; i <= num; i = i + 2)
             arvore.exclusao(i);
         exibir(arvore);
         System.out.println();
 
+        System.out.println("Exclusão de elementos ímpares:");
         for (int i = 1; i <= num; i = i + 2)
             arvore.exclusao(i);
         exibir(arvore);
