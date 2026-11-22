@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        executar(4);
+        Scanner scan = new Scanner(System.in);
+        executar(4, scan);
         System.out.println();
         System.out.println();
-        executar(5);
+        executar(5, scan);
     }
 
-    private static void executar(int n) {
+    private static void executar(int n, Scanner scan) {
         ArvoreBMais arvore = new ArvoreBMais(n);
         System.out.println("===== Arvore B+ com n = " + n + " =====");
-        Scanner scan = new Scanner(System.in);
 
         System.out.println("Digite um número de inserções:");
         int num = scan.nextInt();
