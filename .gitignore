@@ -1,4 +1,5 @@
- target/
+target/
+/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -38,6 +39,8 @@ build/
 ### Mac OS ###
 .DS_Store
 
-### Arquivo de contexto e exemplificação de aplicação de estrutura de dados com Árvore B (B Tree) ###
+### Arquivos de contexto e exemplificação de aplicação de estrutura de dados ###
 /ProjBTree
 */ProjBTree
+Estrutura de Pilha.md
+*Estrutura de Pilha.md
